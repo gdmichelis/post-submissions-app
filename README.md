@@ -14,4 +14,4 @@ ___
  If you find a bug or so in this project, feel free to open an issue first and discuss what problem you have found! 
 
  ## License
- [GNU] (https://www.gnu.org/licenses/gpl-3.0.html)
+ [MIT] 
