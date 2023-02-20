@@ -1,0 +1,98 @@
+body {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  background-color: #f2f2f2;
+}
+
+.feather {
+  width: 20px;
+  height: 20px;
+  stroke: currentColor;
+  stroke-width: 2;
+  stroke-linecap: round;
+  stroke-linejoin: round;
+  fill: none;
+  margin-right: 3px;
+}
+
+label.post-image {
+  background-color: #a176fc;
+  color: #ffffff;
+  padding: 0.5rem;
+  border: 1px solid blue;
+  border-radius: 7px;
+  cursor: pointer;
+}
+
+label.post-image:hover {
+  background-color: blue;
+  color: #ffffff;
+}
+
+input#postImage.form-control {
+  display: inline-block;
+  width: 40%;
+  margin-left: 3rem;
+}
+
+.file-info {
+  border: 1px solid blue;
+  border-radius: 7px;
+  padding: 0.3rem;
+  height: 40px;
+}
+
+.uploaded-img {
+  width: 35px;
+  padding-right: 5px;
+}
+
+ul {
+  list-style-type: none;
+}
+
+#error-message {
+  color: #f00;
+}
+
+.dark-mode {
+  background-color: #221d27;
+  color: #aaaab3;
+  transition: .5s ease-in;
+
+}
+
+.card-dark-mode {
+   background-color: #2a2a2e !important;
+   color: #aaaab3;
+}
+
+.btn-dark-mode.btn-sm {
+  width: 35px;
+  height: 35px;
+  padding: 7px 7px;
+  border-radius: 20px;
+  font-size: 10px;
+  text-align: center;
+  background-color: #e2e2e2;
+  border: none;
+}
+
+svg.feather.feather-sun, svg.feather.feather-moon {
+  color: yellow;
+  fill: yellow;
+}
+
+#btn-light-mode {
+  position: relative;
+  right: -39px;
+  z-index: -1;
+  width: 34px;
+  height: 34px;
+  padding: 7px 7px;
+  border-radius: 20px;
+  font-size: 10px;
+  text-align: center;
+  border: none;
+}
